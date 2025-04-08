@@ -35,7 +35,7 @@ struct ShakeView: View {
             }
         }
         .padding()
-        // 🟡 Primary Feature: Detect device shake using a custom ViewModifier
+        // 🟢 Primary Feature: Detect device shake using a custom ViewModifier
         .onDeviceShake(isActive: viewModel.isActive) {
             viewModel.handleShake()
         }
