@@ -11,6 +11,9 @@ Detects physical device shakes and triggers a custom action in SwiftUI views wit
     // Handle shake
 }
 ```
+## Demo
+
+![Shake Demo](media/deviceShakeRecording.gif)
 
 ## Includes
 
